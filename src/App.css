@@ -1,0 +1,80 @@
+:root {
+  --background: rgb(38, 38, 38);
+  --foreground: rgb(60, 60, 60);
+  --text-light: rgb(225, 225, 225);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100vw;
+  color: var(--text-light);
+  background: var(--background);
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+section {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+
+.main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-title {
+  color: inherit;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+.text-body {
+  color: inherit;
+  font-size: 1rem;
+}
+
+.text-label {
+  color: inherit;
+  font-size: 0.8rem;
+}
+
+.card {
+  width: fit-content;
+  background-color: var(--foreground);
+  padding: 1em;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.space-vert-32 {
+  height: 32px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px
+}

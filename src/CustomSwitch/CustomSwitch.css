@@ -1,0 +1,120 @@
+/* 
+* Customizable CSS config
+* Some properties, such as background-color, are kept like this in case you prefer to replace all the CSS-in-JS, inline styles, using only pure CSS config.
+* This may be necessary if you need to comply with strict CSP rules (Content Security Policy: No inline styles or scripts).
+*/
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.switch-track {
+  border-radius: 25px 25px 25px 25px;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  margin: 5px 5px 5px 0;
+  cursor: pointer;
+  /* background-color: #262626; */
+  transition: background-color 0.4s;
+}
+
+.tiny-track {
+  width: 30px;
+}
+
+.small-track {
+  width: 40px;
+}
+
+.medium-track {
+  width: 60px;
+}
+
+.large-track {
+  width: 80px;
+}
+
+.huge-track {
+  width: 100px;
+}
+
+.switch-thumb {
+  border-radius: 50%;
+  position: relative;
+  left: 0px;
+  /* background-color: #6d6d6d; */
+  transition:
+    left 0.5s ease,
+    background-color ease 0.5s;
+}
+
+.tiny-thumb {
+  width: 15px;
+  height: 15px;
+}
+
+.small-thumb {
+  width: 20px;
+  height: 20px;
+}
+
+.medium-thumb {
+  width: 30px;
+  height: 30px;
+}
+
+.large-thumb {
+  width: 40px;
+  height: 40px;
+}
+
+.huge-thumb {
+  width: 50px;
+  height: 50px;
+}
+
+.track-on {
+  background-color: #c8c8c8;
+}
+
+.thumb-on-tiny {
+  left: 12px;
+  /* background-color: #262626; */
+}
+
+.thumb-on-small {
+  left: 17px;
+  /* background-color: #262626; */
+}
+
+.thumb-on-medium {
+  left: 27px;
+  /* background-color: #262626; */
+}
+
+.thumb-on-large {
+  left: 37px;
+  /* background-color: #262626; */
+}
+
+.thumb-on-huge {
+  left: 47px;
+  /* background-color: #262626; */
+}
+
+.text-label {
+  /* color: #e1e1e1; */
+  font-size: 0.8rem;
+  margin-right: 10px;
+}
+
+.disabled {
+  background-color: #363636;
+}
