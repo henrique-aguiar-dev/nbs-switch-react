@@ -1,6 +1,6 @@
 ## NBS Switch for React (web)
 
-![](https://github.com/henrique-aguiar-dev/nbs-switch-react/blob/main/src/assets/nbs-switch.png)
+![](/public/nbs-switch.png)
 
 Why?
 I wanted a simple mobile-like switch for a React project.

@@ -101,13 +101,13 @@ const CustomSwitch = ({
           </p>
         )}
         <div
-          className={`switch-track ${trackSizeClass} ${defaultValue ? "track-on" : ""}`}
-          style={{ backgroundColor: defaultValue ? trackColors.on : trackColors.off }}
+          className={`switch-track ${trackSizeClass} ${defaultValue ? "track-on" : ""} ${disabled ? "disabled-track" : ""}`}
+          style={!disabled ? { backgroundColor: defaultValue ? trackColors.on : trackColors.off } : undefined}
           onClick={handleClick}
         >
           <span
-            className={`switch-thumb ${thumbSizeClass} ${defaultValue ? thumbOnClass : ""} ${disabled ? "disabled" : ""}`}
-            style={{ backgroundColor: defaultValue ? thumbColors.on : thumbColors.off }}
+            className={`switch-thumb ${thumbSizeClass} ${defaultValue ? thumbOnClass : ""} ${disabled ? "disabled-thumb" : ""}`}
+            style={!disabled ? { backgroundColor: defaultValue ? thumbColors.on : thumbColors.off } : undefined}
           />
         </div>
         <p className="text-label" style={{ color: textColor }}>

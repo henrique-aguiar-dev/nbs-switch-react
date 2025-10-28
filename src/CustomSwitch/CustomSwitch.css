@@ -115,6 +115,10 @@
   margin-right: 10px;
 }
 
-.disabled {
+.disabled-track {
+  background-color: #222222;
+}
+
+.disabled-thumb {
   background-color: #363636;
 }
