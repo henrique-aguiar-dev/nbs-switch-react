@@ -2,6 +2,10 @@
 
 ![](/public/nbs-switch.png)
 
+Demo:
+
+https://henrique-aguiar-dev.github.io/nbs-switch-react/
+
 Why?
 I wanted a simple mobile-like switch for a React project.
 Tried a huge library, thousands of lines of code, many contributors and complications, 30 closed issues plus 16 open ones, lots of dependencies, etc., etc., etc.
